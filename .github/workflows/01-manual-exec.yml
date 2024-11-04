@@ -17,8 +17,8 @@ jobs:
       - name: Instalando Dependencias
         run: yarn
 
-      - name: Instalando Playwright
-        run: yarn playwright install
+      - name: Instalando Cypress
+        run: yarn cypress install
 
       - name: Teste E2E
         run: yarn run e2e
