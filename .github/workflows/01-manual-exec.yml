@@ -27,4 +27,4 @@ jobs:
         if: ${{ !cancelled() }}
         with:
           name: relatorio-de-testes
-          path: ./cypress-mochawesome-reporter/plugin
+          path: ./cypress/reports/html/index.html
