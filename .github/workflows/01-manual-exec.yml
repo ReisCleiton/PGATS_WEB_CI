@@ -17,9 +17,6 @@ jobs:
       - name: Instalando Dependencias
         run: yarn
 
-      - name: Instalando reporter
-        run: yarn yarn add -D cypress-mochawesome-reporter
-
       - name: Instalando Cypress
         run: yarn cypress install
 
