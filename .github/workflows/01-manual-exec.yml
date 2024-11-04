@@ -21,10 +21,10 @@ jobs:
         run: yarn cypress install
 
       - name: Teste E2E
-        run: yarn run e2e --reporter cypress-mochawesome-reporter
+        run: yarn run e2e
 
       - uses: actions/upload-artifact@v4
         if: ${{ !cancelled() }}
         with:
           name: relatorio-de-testes
-          path: ./cypress/reports/html
+          path: ./cypress/reports/html/index.html
