@@ -1,6 +1,6 @@
 # CI de Nivel 01 - Disparo manual a partire de um clique
 
-name: 'Execucao Manual'
+name: 'Execucao Manual - Trab. Final CI'
 
 on:
   workflow_dispatch:
