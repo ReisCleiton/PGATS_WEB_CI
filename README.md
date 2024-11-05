@@ -1,10 +1,15 @@
-Instale o git
-Instale o nodejs
-Instale o Yarn - npm install -g yarn
-Instale as dependências
-cd pgats-ci-projeto-base
-yarn
-Execute os testes de unidade - isso vai gerar um relatório
-yarn run test
-Execute os testes end-to-end com o Cypress
-yarn run e2e
+## Pré-requisitos
+
+1. Instale o [git](https://git-scm.com)
+2. Instale o [nodejs](https://nodejs.org/)
+3. Instale o Yarn - `npm install -g yarn`
+4. Instale as dependências
+   ```shell
+   cd pgats-ci-projeto-base
+   yarn
+   ```
+
+5. Execute os testes end-to-end com o Cypress
+    ```shell
+    yarn run e2e
+    ```
